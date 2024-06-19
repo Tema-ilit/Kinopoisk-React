@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2rem 1rem;
+
+  background: #000;
+}
+.header__list {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+
+  list-style: none;
+  cursor: pointer;
+
+  margin: 0;
+  padding: 0;
+}
+.header__list-item {
+  text-decoration: none;
+  transition: 0.3s all;
+}
+.header__list-item:focus-visible,
+.header__list-item:hover {
+  color: blue;
+  transform: translateY(-3px);
+}

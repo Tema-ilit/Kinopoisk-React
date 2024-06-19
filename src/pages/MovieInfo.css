@@ -1,0 +1,12 @@
+.info-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.movie-wrap {
+  background-color: black;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
